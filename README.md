@@ -12,14 +12,16 @@ This project demonstrates AWS High Availability using:
 
 ## Architecture
 
+```text
 Internet
-   |
-   v
+    |
+    v
 Application Load Balancer
-   |
+    |
 -------------------------
-|         |          |
-EC2-1    EC2-2     EC2-3
+|          |           |
+EC2-1     EC2-2      EC2-3
+```
 
 ## Project Workflow
 
